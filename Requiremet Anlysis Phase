@@ -1,0 +1,18 @@
+# Phase 2: Requirement Analysis Phase
+
+## Functional Requirements
+1. User can select document type (Rental, NDA, Affidavit).
+2. User can input owner and tenant details.
+3. System should generate a professional legal document.
+4. User can preview, edit, and download the PDF.
+
+## Non-Functional Requirements
+1. The website should load within 3 seconds.
+2. Documents must be legally accurate.
+3. User data must be secure.
+4. Simple and user-friendly interface.
+
+## Tools Required
+- Hardware: Laptop / PC with 8GB RAM
+- Software: VS Code, Python, Chrome Browser
+- AI Tool: OpenAI API Key
