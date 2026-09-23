@@ -1,0 +1,29 @@
+# Phase 1: Brainstorming & Ideation Phase
+
+## Project Title: AI-Powered Legal Document Generator
+
+### 1. Problem Statement
+Common people and small businesses face high costs and delays in creating legal documents like Rental Agreement, NDA, and Affidavit. They depend on lawyers for every document, which costs Rs.1500 to Rs.5000 and takes 2-3 days. Online templates are outdated and not legally accurate.
+
+### 2. Proposed Solution
+We propose an AI-based web application where users select a document type and enter basic details like name and address. The AI will automatically generate a professional legal document with proper legal clauses and formatting. The final document can be downloaded as PDF and DOCX.
+
+### 3. Target Audience
+- House Owners and Tenants
+- Small Business Owners and Startups
+- Students and Freelancers
+- General Public
+
+### 4. Key Features
+1. 15+ Pre-designed Legal Templates
+2. AI-Powered Clause Suggestion
+3. Dynamic Form Input
+4. Real-time Preview and Edit Option
+5. One-Click PDF Download
+6. Secure and Confidential
+
+### 5. Technology Stack
+- Frontend: HTML, CSS, JavaScript, React
+- Backend: Python Flask
+- AI: OpenAI GPT API
+- PDF Generation: ReportLab, python-docx
