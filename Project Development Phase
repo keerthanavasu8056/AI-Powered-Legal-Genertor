@@ -1,0 +1,14 @@
+# 5 - Project Development Phase
+### Project: Legal Document Generator
+
+#### 1. Development Overview
+In this phase, we started coding for our Legal Document Generator website using Python Flask.
+
+#### 2. Technology Stack Implemented
+- Frontend: HTML5, CSS3, JavaScript, Bootstrap 5
+- Backend: Python Flask
+- Database: MySQL (or SQLite for easy demo)
+- PDF Generation: ReportLab Library
+- Hosting: GitHub
+
+#### 3. Project Folder Structure
