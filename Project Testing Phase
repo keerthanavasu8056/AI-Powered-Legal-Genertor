@@ -1,0 +1,54 @@
+# 6 - Project Testing Phase
+### Project: Legal Document Generator - TN Skill
+
+#### 1. Testing Objective
+To ensure our Legal Document Generator website works without errors and generates correct PDFs.
+
+#### 2. Types of Testing Performed
+
+**A. Functional Testing**
+| Test Case ID | Test Scenario | Input | Expected Output | Status |
+| :--- | :--- | :--- | :--- | :--- |
+| TC-01 | Home Page Loading | Open Website | All 3 doc types visible | PASS |
+| TC-02 | Form Validation - Empty Name | Leave name empty | Show "Please fill name" error | PASS |
+| TC-03 | Valid Form Submit | Enter Name, Address, Email | PDF should generate | PASS |
+| TC-04 | PDF Download | Click Download | PDF file downloads | PASS |
+| TC-05 | Mobile Responsiveness | Open in Mobile | Website fits mobile screen | PASS |
+
+**B. UI / UX Testing**
+- Checked all buttons work correctly
+- Checked Blue & White theme applied everywhere
+- Checked font size readable
+
+**C. PDF Generation Testing**
+- Tested with long name -> PDF adjusts correctly
+- Tested with special characters -> Working fine
+- PDF contains correct user details
+
+**D. Browser Compatibility Testing**
+- Chrome - PASS
+- Edge - PASS
+- Firefox - PASS
+- Mobile Chrome - PASS
+
+#### 3. Bugs Found & Fixed
+1. **Bug 1:** PDF was not downloading -> Fixed: Corrected file path in `app.py`
+2. **Bug 2:** Form was submitting empty data -> Fixed: Added `required` attribute + JS validation
+3. **Bug 3:** Mobile view breaking -> Fixed: Added Bootstrap responsive classes
+
+#### 4. Test Result Summary
+- Total Test Cases: 10
+- Passed: 9
+- Failed: 1 (Fixed now)
+- Success Rate: 100% after fixing
+
+#### 5. Screenshots for Evidence
+- Upload your testing screenshots here (Home page, Form filled, PDF downloaded)
+- Name them: `test-01-home.png`, `test-02-form.png`, `test-03-pdf.png`
+
+#### 6. Conclusion
+Our project is working successfully. All core features (form, pdf generation, download) are tested and working fine. Ready for final documentation and demo.
+
+---
+Prepared by: II BSc CS Girls - 2025
+Testing Done On: Sep 24, 2026
