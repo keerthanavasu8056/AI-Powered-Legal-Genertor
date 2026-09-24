@@ -1,0 +1,42 @@
+# 3 - Project Design Phase
+### Project: Legal Document Generator - Naan Mudhalvan / TN Skill
+
+#### 1. Objective
+To design a simple and user-friendly system that automatically generates legal documents like Rent Agreement, Affidavit, and NDA. The goal is to reduce manual work, save time, and avoid errors.
+
+#### 2. System Architecture
+Our project uses 3-Tier Architecture:
+- **Tier 1 - Frontend:** HTML, CSS, JavaScript (User Interface)
+- **Tier 2 - Backend:** Python with Flask (Logic & Processing)
+- **Tier 3 - Database & PDF Engine:** MySQL + PDF Generator (ReportLab)
+
+**Flow:** User Browser -> Frontend -> Backend (Python) -> Database -> PDF Generator -> Final PDF Download
+
+#### 3. UI / UX Design
+- **Home Page:** Shows 3 document types with "Most Popular" tags. Has a "Start New Document" button.
+- **Form Page:** User enters Full Name, Email, Phone, Address, and Purpose.
+- **Preview & Download Page:** User can see the preview of the legal document and download it as PDF.
+
+Design is responsive for both Desktop and Mobile (Blue & White Theme).
+
+#### 4. Database Design
+- **Table 1 - users:** user_id, name, email, phone
+- **Table 2 - documents:** doc_id, user_id, doc_type (Rent/Affidavit/NDA), created_at, file_path
+- **Table 3 - templates:** template_id, doc_type, content
+
+#### 5. Workflow / Flowchart
+START -> User Login -> Select Document Type -> Fill Details -> Validation -> Generate PDF -> Preview -> Download -> END
+
+#### 6. Tools & Technologies Used
+- Frontend: HTML5, CSS3, JavaScript
+- Backend: Python, Flask
+- Database: MySQL
+- PDF Library: ReportLab / FPDF
+- Design Tool: Canva, Figma (for wireframe)
+- Version Control: GitHub
+
+#### 7. Expected Output
+A fully working website where a user can fill a form in 3-5 minutes and get a professional, legally formatted PDF document instantly.
+
+---
+Prepared by: II BSc CS Girls Team - 2025
