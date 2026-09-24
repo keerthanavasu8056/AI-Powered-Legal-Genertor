@@ -1,0 +1,67 @@
+# 7 - Project Documentation Phase
+### Project: Legal Document Generator
+### TN Skill / Naan Mudhalvan - Final Documentation
+
+#### 1. Project Summary
+Our project **Legal Document Generator** is a web-based application that helps users to generate legal documents like Rent Agreement, Affidavit, and NDA quickly without a lawyer. User just needs to fill a form and the system will auto-generate a professional PDF.
+
+#### 2. Project Objectives
+- To automate legal document creation
+- To save time and money for common people
+- To provide error-free, professionally formatted legal documents
+- To make legal help accessible for everyone
+
+#### 3. System Requirements
+**Hardware:**
+- Minimum 4GB RAM, i3 Processor, 100MB Storage
+
+**Software:**
+- Frontend: HTML, CSS, JavaScript, Bootstrap
+- Backend: Python 3.8+, Flask Framework
+- Database: MySQL / SQLite
+- PDF Library: ReportLab
+- Tools: VS Code, GitHub, Canva
+
+#### 4. System Design Summary
+- **Architecture:** 3-Tier Architecture (Frontend -> Backend -> Database)
+- **UI Design:** Simple Blue & White Theme, Card-based Document Selection
+- **Database:** 3 Tables (users, documents, templates)
+- **Flow:** User -> Select Doc -> Fill Form -> Generate PDF -> Download
+
+#### 5. Modules Description
+1. **User Module:** User can view document types
+2. **Form Module:** Collects user details with validation
+3. **PDF Generation Module:** Core module that fills details into template and creates PDF
+4. **Download Module:** Allows user to download final document
+
+#### 6. Key Features
+- 3 Types of Legal Documents Ready
+- Instant PDF Generation (within 5 seconds)
+- Mobile Responsive Design
+- Secure Data Handling
+- User-Friendly Interface
+
+#### 7. Future Enhancement
+- Add more documents like Employment Agreement, Sale Deed
+- Add E-Signature feature
+- Add Payment Gateway for premium templates
+- Add Multi-language support (Tamil, English)
+
+#### 8. Conclusion
+We have successfully designed and developed a working prototype of Legal Document Generator. This project solves a real-world problem and can be very useful for students, small businesses, and common people. We learned teamwork, Python Flask, and GitHub through this TN Skill project.
+
+#### 9. References
+- W3Schools - HTML, CSS
+- Flask Documentation - flask.palletsprojects.com
+- ReportLab Documentation
+- Canva - For PPT and Design
+
+#### 10. Team Details
+- **College:** [Your College Name]
+- **Department:** II BSc Computer Science (Girls)
+- **Team Members:** [Add Your Names Here]
+- **Guide:** Anushiya Mam
+- **Project Type:** TN Skill - Naan Mudhalvan
+
+---
+Thank You!
