@@ -1,0 +1,60 @@
+# 4 - Project Planning Phase
+### Project: Legal Document Generator - TN Skill / Naan Mudhalvan
+
+#### 1. Project Goal
+To develop and deploy a Legal Document Generator website in 4 weeks.
+
+#### 2. Sprint Planning (4 Weeks Plan)
+
+**Week 1 - Requirement & Analysis (Completed)**
+- Task: Brainstorming idea, collected requirements for legal docs
+- Status: Completed
+
+**Week 2 - Design Phase (Current Phase)**
+- Task: Created System Architecture, UI Wireframe, Database Design
+- Status: In Progress
+- Output: Architecture Diagram + UI Mockup + PPT
+
+**Week 3 - Development Phase (Next)**
+- Task 1: Frontend Development (Home page, Form page) - 3 days
+- Task 2: Backend Development (Python Flask setup) - 2 days
+- Task 3: Database connection & PDF Generation logic - 2 days
+- Assignee: All Team Members
+
+**Week 4 - Testing & Deployment Phase**
+- Task 1: Testing forms, validation, PDF download - 2 days
+- Task 2: Prepare Documentation, PPT, Demo Video - 2 days
+- Task 3: Final Submission on GitHub - 1 day
+
+#### 3. Resource Allocation
+- **Team Members:** 4 Members (II BSc CS Girls)
+- **Roles:**
+    - Member 1: Frontend Design
+    - Member 2: Backend Development
+    - Member 3: Database & Documentation
+    - Member 4: Testing & PPT Preparation
+- **Tools:** VS Code, GitHub, Python, MySQL, Canva
+
+#### 4. Timeline / Gantt Chart View
+| Phase | Start Date | End Date | Status |
+| :--- | :--- | :--- | :--- |
+| Phase 1 - Ideation | Aug 15 | Aug 20 | Done |
+| Phase 2 - Requirement | Aug 21 | Aug 28 | Done |
+| Phase 3 - Design | Aug 29 | Sep 05 | Doing |
+| Phase 4 - Planning | Sep 06 | Sep 10 | Doing |
+| Phase 5 - Development | Sep 11 | Sep 25 | Pending |
+| Phase 6 - Testing | Sep 26 | Sep 30 | Pending |
+
+#### 5. Risk & Mitigation
+- **Risk 1:** PDF not generating properly -> Solution: Use alternative library FPDF
+- **Risk 2:** Time shortage -> Solution: Daily 1 hour team meeting
+- **Risk 3:** GitHub upload issue -> Solution: Keep backup in Google Drive
+
+#### 6. Deliverables for this Phase
+- Project Planning Document (This file)
+- Timeline Chart
+- Task Assignment Sheet
+
+---
+Prepared by: II BSc CS Girls Team - 2025
+Anushiya Mam - Project Guide
